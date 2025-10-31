@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8"> 
+        <title>Главная страница</title>
+        <meta name="author" content="Medvedev Kirill">
+        <meta name="description" content="Учебная страница">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img\www_12549864.png" type="image/png">
+    </head>
+    <body>
+        <header>
+            <!-- Шапка -->
+             <H1>Главная страница</H1>
+        </header>
+        <Nav>
+        <!-- Навигационное меню       -->
+         <a href="index.html"> Домой</a>
+         <a href="about.html"> Обо мне </a>
+         <a href="contact.html"> Контакты </a>
+        </Nav>
+        <hr>
+        <main>
+       
+       <P> Список покупок</P>
+       <ol>
+            <li>макароны</li>
+            <li>сыр</li>
+            <li>яйца</li>
+            <li>огурцы</li>
+            <li>помидоры</li>
+       </ol>
+            Из этих продуктов можно приготовить 
+        <ul>
+            <li>лазанью <br><img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_681cd5367d335f0d5dabb00f_681cd5aea35d207dcd91ee36/scale_1200" alt="лазанья" width="20%"></li>
+            <li>салат <br><img src="img\Salads_Vegetables_Plate_463072_2880x1800.jpg" alt="салат" width="20%"></li>
+        </ul>
+       <p> <Strong>обязательно купить</Strong></p>
+        <ol start="6">
+            <li>сковорода</li>
+        </ol>
+        
+        </main>
+        <footer>
+            <form action="contact.html">
+                <H3>Данные для статистики</H3>
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" required>
+                <label for="male"> пол</label>
+                    <select name="male" id="male">
+                    <option value="-">-</option>
+                    <option value="male">М</option>
+                    <option value="female">Ж</option>
+                    </select>
+                <label for="email">e-mail</label>
+                <input type="email" name="email" id="email" required>
+            <br>
+                <button> Отправить</button>
+            </form>
+        </footer>
+    </body>
+</html>
