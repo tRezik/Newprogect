@@ -1,0 +1,28 @@
+h1 {
+color: coral;
+font-size: 12mm;
+}
+
+p {
+    color: darkblue;
+    padding: 5px;
+    background: mediumturquoise;
+}
+.special {
+    color: blueviolet;
+  font-weight: bolder;
+}
+
+a:link{ 
+    /* не посещенная ссылка */
+    color: darkgoldenrod;
+}
+a:visited{
+    /*посещенная ссылка */
+    color: chartreuse;
+}
+a:hover{
+    /* навели курсор на ссылку */
+    color: firebrick;
+    text-decoration: none; 
+}
